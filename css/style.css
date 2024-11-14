@@ -1,11 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
 body {
-  background-color: aquamarine;
+  background-color: #ECDFCC;
+  font-family: "Afacad Flux", sans-serif;
 }
 
 * {
   margin: 0px;
   padding: 0rem;
   box-sizing: border-box;
+}
+
+nav .collapse {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */

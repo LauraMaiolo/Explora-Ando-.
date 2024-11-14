@@ -1,5 +1,10 @@
+
+
+
+
 body {
-    background-color: aquamarine;
+    background-color: #ECDFCC;
+    font-family: 'Afacad Flux', sans-serif;
 
 }
 
@@ -24,3 +29,4 @@ body {
 @import "./layout/media/media1024";
 @import "./layout/media/media768";
 @import "./layout/media/media320";
+@import "./layout/divNavBar";
