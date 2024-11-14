@@ -1,5 +1,26 @@
 body {
-background-color: aquamarine;
-
+    background-color: aquamarine;
 
 }
+
+
+// // primero siempre llamamos partials de UTILITIES
+
+@import "./utilities/map";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+// partials en carpeta BASE
+
+@import "./base/reset";
+@import "./base/tipografias";
+
+
+// partials en LAYOUT
+
+// partials en COMPONENTS
+
+// POR ULTIMO SIEMPRE LOS MEDIAQUERIES
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media320";
