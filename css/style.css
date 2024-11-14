@@ -10,6 +10,11 @@ body {
   box-sizing: border-box;
 }
 
+nav .navBar {
+  width: 100%;
+  height: 6.25rem;
+}
+
 nav .collapse {
   display: flex;
   flex-direction: column;
@@ -17,6 +22,10 @@ nav .collapse {
   justify-content: space-between;
   align-items: center;
   gap: 1.25rem;
+}
+nav li a {
+  color: #59218B;
+  font-size: 1.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */
