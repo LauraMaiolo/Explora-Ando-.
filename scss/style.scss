@@ -5,11 +5,9 @@ body {
 }
 
 // primero siempre llamamos partials de UTILITIES
+@import "./utilities/mixins";
 @import "./utilities/variables";
 @import "./utilities/map";
-@import "./utilities/mixins";
-
-
 
 
 // partials en carpeta BASE

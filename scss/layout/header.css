@@ -1,15 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
-body {
-  background-color: #ECDFCC;
-  font-family: "Afacad Flux", sans-serif;
-}
-
-* {
-  margin: 0px;
-  padding: 0rem;
-  box-sizing: border-box;
-}
-
 header {
   display: flex;
   flex-direction: column;
@@ -24,6 +12,7 @@ header h1 {
   align-items: flex-start;
   gap: 1.25rem;
   margin-bottom: 1rem;
+  color: #59218B;
 }
 header nav {
   width: 100%;
@@ -40,4 +29,4 @@ header nav .navbar-nav {
   gap: 1.25rem;
   color: #59218B;
   font-size: 1.25rem;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=header.css.map */
