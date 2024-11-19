@@ -1,19 +1,15 @@
-
-
-
-
 body {
     background-color: #ECDFCC;
     font-family: 'Afacad Flux', sans-serif;
 
 }
 
-
-// // primero siempre llamamos partials de UTILITIES
-
-@import "./utilities/map";
+// primero siempre llamamos partials de UTILITIES
 @import "./utilities/variables";
+@import "./utilities/map";
 @import "./utilities/mixins";
+
+
 
 
 // partials en carpeta BASE
@@ -23,11 +19,13 @@ body {
 
 
 // partials en LAYOUT
+@import "./layout/header.scss";
+@import "./layout/sectionMainCarrousel.scss";
 
-// partials en COMPONENTS
+//partials en COMPONENTS
 
-// POR ULTIMO SIEMPRE LOS MEDIAQUERIES
-@import "./layout/divNavBar";
+// partials en LAYOUT MEDIAQUERIES
 @import "./layout/media/media1024";
 @import "./layout/media/media768";
 @import "./layout/media/media320";
+
