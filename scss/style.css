@@ -10,34 +10,41 @@ body {
   box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+header section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "logo tit tit" "logo nav nav";
+}
+header div a img {
+  grid-area: logo;
+  justify-self: center;
+  align-self: center;
 }
 header h1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 1.25rem;
-  margin-bottom: 1rem;
+  grid-area: tit;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
 }
 header nav {
-  width: 100%;
+  grid-area: nav;
 }
-header nav .collapse {
-  display: block;
-}
-header nav .navbar-nav {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 1.25rem;
+header nav ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  text-align: center;
   color: #59218B;
   font-size: 1.25rem;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.main section {
+  background-color: aquamarine;
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
