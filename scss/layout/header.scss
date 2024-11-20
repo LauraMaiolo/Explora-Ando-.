@@ -13,7 +13,7 @@ header {
     h1 {
         @include flex(column, wrap, flex-start, flex-start, 1.25rem);
         margin-bottom: 1rem;
-        color: map-get($color, secundario);    }
+          }
 
     nav {
         width: 100%;
@@ -23,10 +23,12 @@ header {
             display: block;
         }
 
-        .navbar-nav {
-            @include flex(column, wrap, flex-start, flex-start, 1.25rem);
+        .navbar {
+            @include flex(row, wrap, flex-start, flex-start, 1.25rem);
             color: map-get($color, secundario);
             font-size: map-get($medidas, md);
+            text-decoration: none;
+            list-style: none;
         }
     }
 }
