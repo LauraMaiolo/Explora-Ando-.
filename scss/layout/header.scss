@@ -21,8 +21,19 @@ footer {
 
     div {
         background-color: map-get($color , terciario);
-        color: map-get($color, secundario);
+        height: map-get($medidas, lg);
 
+        div {
+            justify-content: center;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: map-get($color, secundario);
+                font-size: map-get($medidas, md);
+
+            }
+        }
 
     }
 
