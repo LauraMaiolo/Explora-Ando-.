@@ -37,4 +37,19 @@ footer div div a {
   font-size: 1.25rem;
 }
 
+main div .carousel-item {
+  object-fit: contain;
+  padding: 0.3125rem;
+  max-height: 18.75rem;
+}
+main div .carousel-item div {
+  font-size: 2.8125rem;
+  color: white;
+}
+
+.carousel-caption {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 0.625rem;
+}
+
 /*# sourceMappingURL=style.css.map */

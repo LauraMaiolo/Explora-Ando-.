@@ -1,13 +1,24 @@
+main {
 
+    div {
+        .carousel-item {
+            object-fit: contain;
+            padding: .3125rem;
+            max-height: 18.75rem;
 
-//     width: map-get($carrousel-dimensiones, width);
-//     height: map-get($carrousel-dimensiones, height);
-//     background-color: map-get($carrousel-dimensiones, secundario);
-// }
+            div {
+                font-size: map-get($medidas, lg);
+                color: white;
+            }
 
+        }
 
-// .main section {
-//     background-color: aquamarine;
-//     width: 100%;
-//     height: auto;
-// }
+    }
+}
+
+.carousel-caption {
+
+    background-color: rgba(map-get($grays, "500"), 0.5);
+    border-radius: .625rem;
+
+}
