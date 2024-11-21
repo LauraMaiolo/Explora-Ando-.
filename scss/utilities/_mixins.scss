@@ -10,12 +10,12 @@
 
 
 
-@mixin grid($col, $row, $area) 
-{
-    display: grid;
-    grid-template-columns: $col;
-    grid-template-rows: $row;
-    grid-template-areas: $area;
+// @mixin grid($columns, $rows, $areas) {
+   
+//     display: grid;
+//     grid-template-columns: $columns;
+//     grid-template-rows: $rows;
+//     grid-template-areas: $areas;
 
 
-}
+// }

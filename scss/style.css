@@ -10,41 +10,12 @@ body {
   box-sizing: border-box;
 }
 
-header section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "logo tit tit" "logo nav nav";
-}
-header div a img {
-  grid-area: logo;
-  justify-self: center;
-  align-self: center;
-}
-header h1 {
-  grid-area: tit;
-  justify-self: center;
-  align-self: center;
-  text-align: center;
-}
-header nav {
-  grid-area: nav;
-}
-header nav ul {
-  list-style: none;
-  text-decoration: none;
-  padding: 0;
-  text-align: center;
-  color: #59218B;
-  font-size: 1.25rem;
-}
-header nav ul li {
-  display: inline-block;
-  margin-right: 20px;
+header div h1 {
+  font-size: 2.5rem;
 }
 
-.main section {
-  background-color: aquamarine;
-  width: 100%;
-  height: auto;
+.navbar {
+  color: #59218B;
+  text-decoration: none;
+  list-style: none;
 }/*# sourceMappingURL=style.css.map */
