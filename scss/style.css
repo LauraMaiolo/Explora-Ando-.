@@ -42,9 +42,28 @@ main div .carousel-item {
      object-fit: contain;
   padding: 0.3125rem;
   max-height: 18.75rem;
-  background-color: #606060;
 }
 main div .carousel-item div {
   font-size: 2.8125rem;
-  color: #59218B;
+  color: white;
+}
+
+.carousel-caption {
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 0.625rem;
+}
+
+.card {
+  max-height: 31.25rem;
+}
+
+.card-img-top {
+  margin-top: 0.3125rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 15.625rem;
+}
+
+footer {
+  height: 6.25rem;
 }/*# sourceMappingURL=style.css.map */

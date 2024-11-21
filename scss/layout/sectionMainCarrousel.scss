@@ -20,5 +20,16 @@ main {
 
     background-color: rgba(map-get($grays, "500"), 0.5);
     border-radius: .625rem;
+}
+
+.card {
+    max-height: 31.25rem;
+
+}
+
+.card-img-top {
+    margin-top: .3125rem;
+    object-fit: cover;
+    height: 15.625rem;
 
 }

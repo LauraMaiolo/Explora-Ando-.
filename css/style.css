@@ -52,4 +52,14 @@ main div .carousel-item div {
   border-radius: 0.625rem;
 }
 
+.card {
+  max-height: 31.25rem;
+}
+
+.card-img-top {
+  margin-top: 0.3125rem;
+  object-fit: cover;
+  height: 15.625rem;
+}
+
 /*# sourceMappingURL=style.css.map */
