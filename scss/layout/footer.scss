@@ -1,0 +1,25 @@
+footer {
+    div {
+        background-color: map-get($color , terciario);
+        height: 4.6875rem;
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: map-get($color, secundario);
+                font-size: map-get($medidas, md);
+
+            }
+        }
+
+    }
+
+}

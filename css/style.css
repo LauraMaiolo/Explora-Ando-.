@@ -19,22 +19,8 @@ header div h1 {
   color: #59218B;
   text-decoration: none;
   list-style: none;
-  font-size: 1.25rem;
+  font-size: 1.5625rem;
   text-align: center;
-}
-
-footer div {
-  background-color: #DEA2DC;
-  height: 2.8125rem;
-}
-footer div div {
-  justify-content: center;
-  align-items: center;
-}
-footer div div a {
-  text-decoration: none;
-  color: #59218B;
-  font-size: 1.25rem;
 }
 
 main div .carousel-item {
@@ -51,15 +37,42 @@ main div .carousel-item div {
   background-color: rgba(128, 128, 128, 0.5);
   border-radius: 0.625rem;
 }
+.carousel-caption h5 {
+  font-size: 1.5625rem;
+  text-decoration: underline;
+}
 
 .card {
   max-height: 31.25rem;
+}
+
+.btn {
+  background-color: #DEA2DC;
 }
 
 .card-img-top {
   margin-top: 0.3125rem;
   object-fit: cover;
   height: 15.625rem;
+}
+
+footer div {
+  background-color: #DEA2DC;
+  height: 4.6875rem;
+}
+footer div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div div a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #59218B;
+  font-size: 1.5625rem;
 }
 
 /*# sourceMappingURL=style.css.map */
