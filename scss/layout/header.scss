@@ -1,7 +1,7 @@
 header {
 
     div h1 {
-
+        display: flex;
         font-size: map-get($medidas, lg);
 
     }
@@ -13,8 +13,21 @@ header {
     text-decoration: none;
     list-style: none;
     font-size: map-get($medidas, md);
+    text-align: center;
+}
+
+
+footer {
+
+    div {
+        background-color: map-get($color , terciario);
+        color: map-get($color, secundario);
+
+
+    }
 
 }
+
 
 
 

@@ -11,11 +11,14 @@ body {
 }
 
 header div h1 {
-  font-size: 2.5rem;
+  display: flex;
+  font-size: 2.8125rem;
 }
 
 .navbar {
   color: #59218B;
   text-decoration: none;
   list-style: none;
+  font-size: 1.25rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
