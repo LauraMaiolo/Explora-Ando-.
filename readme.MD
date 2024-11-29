@@ -24,6 +24,12 @@ Explorando es un sitio web dedicado a fomentar el bienestar, la salud integral y
 **- Bootstrap** (CSS / JavaScript)
 
 ------------
+
+### Enlace a la versión en vivo:
+------------
+Podés ver el sitio desplegado aquí: https://explora-ando.netlify.app/
+
+
 ### Como realizar su instalación
 ------------
 Acá van las instrucciones 
