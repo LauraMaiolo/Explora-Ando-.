@@ -8,11 +8,27 @@ header {
 
 }
 
-.navbar {
-    color: map-get($color, secundario);
-    text-decoration: none;
-    list-style: none;
-    font-size: map-get($medidas, md);
-    text-align: center;
+// .navbar {
+//     @include flex(row, wrap, space-between, center, .0625rem)
+// }
+
+.navbar-nav {
+    @include flex(row, nowrap, center, center, 0)
 }
 
+.nav-item {
+    list-style: none;
+
+}
+
+.nav-link {
+    color: map-get($color, secundario);
+    text-decoration: none;
+    font-size: map-get($medidas, md);
+    text-align: center;
+
+    &:hover {
+        color: map-get($color, terciario);
+
+    }
+}

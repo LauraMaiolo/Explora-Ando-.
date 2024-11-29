@@ -15,12 +15,27 @@ header div h1 {
   font-size: 2.8125rem;
 }
 
-.navbar {
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
   color: #59218B;
   text-decoration: none;
-  list-style: none;
   font-size: 1.5625rem;
   text-align: center;
+}
+.nav-link:hover {
+  color: #DEA2DC;
 }
 
 main div .carousel-item {
@@ -42,10 +57,6 @@ main div .carousel-item div {
   text-decoration: underline;
 }
 
-.card {
-  max-height: 31.25rem;
-}
-
 .btn {
   background-color: #DEA2DC;
 }
@@ -54,6 +65,25 @@ main div .carousel-item div {
   margin-top: 0.3125rem;
   object-fit: cover;
   height: 15.625rem;
+}
+
+#page-2 .container-fluid .row .col-12 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  position: relative;
+  height: 100vh;
+}
+#page-2 .container-fluid .row .col-12 .superpuesto {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 footer div {
@@ -73,6 +103,10 @@ footer div div a {
   text-decoration: none;
   color: #59218B;
   font-size: 1.5625rem;
+}
+
+.card {
+  max-height: 31.25rem;
 }
 
 /*# sourceMappingURL=style.css.map */

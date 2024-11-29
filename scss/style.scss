@@ -19,9 +19,14 @@ body {
 // partials en LAYOUT
 @import "./layout/header.scss";
 @import "./layout/sectionMainCarrousel.scss";
+@import "./layout/mainRegistro.scss";
+@import "./layout/carrousel-novedades.scss";
 @import "./layout/footer.scss";
 
+
 //partials en COMPONENTS
+@import "./components/cards.scss";
+@import "./components/animaciones.scss";
 
 // partials en LAYOUT MEDIAQUERIES
 @import "./layout/media/media1024";
