@@ -1,12 +1,13 @@
 footer {
     div {
         background-color: map-get($color , terciario);
-        height: 4.6875rem;
+        height: 70px;
 
         div {
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 100%;
 
             a {
                 display: flex;
@@ -17,6 +18,16 @@ footer {
                 color: map-get($color, secundario);
                 font-size: map-get($medidas, md);
 
+            }
+
+            i {
+                font-size: map-get($medidas, md);
+                margin-bottom: 1px;
+
+            }
+
+            &hover {
+                color: map-get($color, terciario);
             }
         }
 
