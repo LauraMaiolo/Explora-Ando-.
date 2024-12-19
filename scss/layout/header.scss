@@ -10,7 +10,7 @@ header {
 
 
 .navbar-nav {
-    @include flex(row, nowrap, center, center, 0);
+    @include flex(row, wrap, center, center, 0);
 }
 
 .nav-item {
