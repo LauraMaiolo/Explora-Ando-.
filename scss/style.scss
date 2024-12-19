@@ -4,6 +4,7 @@ body {
 
 }
 
+
 // primero siempre llamamos partials de UTILITIES
 @import "./utilities/mixins";
 @import "./utilities/variables";
@@ -21,6 +22,7 @@ body {
 @import "./layout/sectionMainCarrousel.scss";
 @import "./layout/mainRegistro.scss";
 @import "./layout/carrousel-novedades.scss";
+@import "./layout/mainporque.scss";
 @import "./layout/footer.scss";
 
 
