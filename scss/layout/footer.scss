@@ -5,13 +5,14 @@ footer {
         background-color: map-get($color , terciario);
         height: 70px;
 
-        @include flex(row, nowrap, center, center, 0);
+        @include flex(row, wrap, space-evenly, center, 0);
 
         a {
             @include flex(column, nowrap, center, center, 0.5rem);
             text-decoration: none;
             color: map-get($color, secundario);
             font-size: map-get($medidas, md);
+            margin: 0 1rem;
 
             &:hover {
                 color: map-get($color, cuaternario);
@@ -29,9 +30,9 @@ footer {
 }
 
 @media (max-width:768px) {
-    
+
     div {
-        @include flex(column, nowrap, center, center, 1rem);
+        @include flex(column, wrap, space-evenly, center, 1rem);
     }
 
     a {
@@ -44,10 +45,11 @@ footer {
 }
 
 @media (max-width:320px) {
-    div{
-        @include flex(column, nowrap, center, center, 0.5rem);
+    div {
+        @include flex(column, wrap, space-evenly, center, 0.5rem);
 
     }
+
     a {
         font-size: map-get($medidas, xs);
     }

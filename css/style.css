@@ -142,8 +142,8 @@ footer div {
   height: 70px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
   gap: 0;
 }
@@ -157,6 +157,7 @@ footer div a {
   text-decoration: none;
   color: #59218B;
   font-size: 1.25rem;
+  margin: 0 1rem;
 }
 footer div a:hover {
   color: #000000;
@@ -170,8 +171,8 @@ footer div i {
   div {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     gap: 1rem;
   }
@@ -186,8 +187,8 @@ footer div i {
   div {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     gap: 0.5rem;
   }

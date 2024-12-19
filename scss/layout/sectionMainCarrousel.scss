@@ -1,72 +1,68 @@
-main {
+  main {
 
-    div {
-        .carousel-item {
-            object-fit: cover;
-            padding: .3125rem;
-            max-height: 18.75rem;
-
-
-            div {
-                font-size: map-get($medidas, lg);
-                color: white;
-            }
-
-        }
-
-    }
-}
-
-// .carousel-inner {
+      div {
+          .carousel-item {
+              object-fit: cover;
+              padding: .3125rem;
+              max-height: 18.75rem;
 
 
+              div {
+                  font-size: map-get($medidas, lg);
+                  color: white;
+              }
 
-// }
+          }
+
+      }
+  }
+
+//   .carousel-inner {}
 
 
-.carousel-caption {
+  .carousel-caption {
 
-    background-color: rgba(map-get($grays, "500"), 0.5);
-    border-radius: .625rem;
+      background-color: rgba(map-get($grays, "500"), 0.5);
+      border-radius: .625rem;
 
-    h5 {
-        font-size: map-get($medidas, md);
-        text-decoration: underline;
+      h5 {
+          font-size: map-get($medidas, md);
+          text-decoration: underline;
 
-    }
-}
+      }
+  }
 
-.btn {
-    background-color: map-get($color, terciario);
+  .btn {
+      background-color: map-get($color, terciario);
 
-}
+  }
 
-.card-img-top {
-    margin-top: .3125rem;
-    object-fit: cover;
-    height: 15.625rem;
-    width: 100%;
+  .card-img-top {
+      margin-top: .3125rem;
+      object-fit: cover;
+      height: 15.625rem;
+      width: 100%;
 
-}
+  }
 
-@media (max-width: 768px) {
-    .carousel-item {
-        max-height: 15rem;
-    }
+  @media (max-width: 768px) {
+      .carousel-item {
+          max-height: 15rem;
+      }
 
-    .card-img-top {
-        height: 12rem;
-    }
+      .card-img-top {
+          height: 12rem;
+      }
 
-}
+  }
 
-@media (max-width:320px) {
-    .carousel-item {
-        max-height: 12rem;
-    }
+  @media (max-width:320px) {
+      .carousel-item {
+          max-height: 12rem;
+      }
 
-    .card-img-top {
-        height: 10rem;
-    }
+      .card-img-top {
+          height: 10rem;
+      }
 
-}
+  }
