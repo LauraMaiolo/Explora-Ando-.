@@ -8,12 +8,11 @@
 
 }
 
-.image-container h1 {
+.image-container h2 {
     
     top: 50%;
     left: 50%;
     font-size: map-get($medidas, lg);
-    transform: translate(-50%, -50%);
     text-align: center;
     word-wrap: break-word;
 
@@ -43,8 +42,8 @@
     //     background-position: center;
     // }
 
-    .image-container h1 {
-        font-size: map-get($medidas, sm);
+    .image-container h2 {
+        font-size: map-get($medidas, md);
         
     }
 
@@ -62,8 +61,8 @@
     // }
 
 
-    .image-container h1 {
-        font-size: map-get($medidas, xs);
+    .image-container h2 {
+        font-size: map-get($medidas, sm);
        
     }
 

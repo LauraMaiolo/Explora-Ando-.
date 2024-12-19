@@ -2,9 +2,10 @@ main {
 
     div {
         .carousel-item {
-            object-fit: contain;
+            object-fit: cover;
             padding: .3125rem;
             max-height: 18.75rem;
+
 
             div {
                 font-size: map-get($medidas, lg);
@@ -15,6 +16,13 @@ main {
 
     }
 }
+
+// .carousel-inner {
+
+
+
+// }
+
 
 .carousel-caption {
 
@@ -37,6 +45,7 @@ main {
     margin-top: .3125rem;
     object-fit: cover;
     height: 15.625rem;
+    width: 100%;
 
 }
 
