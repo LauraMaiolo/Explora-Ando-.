@@ -39,3 +39,25 @@ main {
     height: 15.625rem;
 
 }
+
+@media (max-width: 768px) {
+    .carousel-item {
+        max-height: 15rem;
+    }
+
+    .card-img-top {
+        height: 12rem;
+    }
+
+}
+
+@media (max-width:320px) {
+    .carousel-item {
+        max-height: 12rem;
+    }
+
+    .card-img-top {
+        height: 10rem;
+    }
+
+}

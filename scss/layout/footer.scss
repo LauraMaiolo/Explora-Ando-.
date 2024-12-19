@@ -1,36 +1,58 @@
+@import "../utilities/mixins";
+
 footer {
     div {
         background-color: map-get($color , terciario);
         height: 70px;
 
-        div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
+        @include flex(row, nowrap, center, center, 0);
 
-            a {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                text-decoration: none;
-                color: map-get($color, secundario);
-                font-size: map-get($medidas, md);
+        a {
+            @include flex(column, nowrap, center, center, 0.5rem);
+            text-decoration: none;
+            color: map-get($color, secundario);
+            font-size: map-get($medidas, md);
 
+            &:hover {
+                color: map-get($color, cuaternario);
             }
+        }
 
-            i {
-                font-size: map-get($medidas, md);
-                margin-bottom: 1px;
 
-            }
-
-            &hover {
-                color: map-get($color, terciario);
-            }
+        i {
+            font-size: map-get($medidas, md);
+            margin-bottom: 1px;
         }
 
     }
 
+}
+
+@media (max-width:768px) {
+    
+    div {
+        @include flex(column, nowrap, center, center, 1rem);
+    }
+
+    a {
+        font-size: map-get($medidas, sm);
+    }
+
+    i {
+        font-size: map-get($medidas, sm);
+    }
+}
+
+@media (max-width:320px) {
+    div{
+        @include flex(column, nowrap, center, center, 0.5rem);
+
+    }
+    a {
+        font-size: map-get($medidas, xs);
+    }
+
+    i {
+        font-size: map-get($medidas, xs);
+    }
 }
